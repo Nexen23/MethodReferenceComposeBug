@@ -13,10 +13,10 @@
 		android:theme="@style/Theme.ComposePlayground"
 		tools:targetApi="31">
 		<activity
-			android:name=".ScaffoldBugActivity"
+			android:name=".MethodReferenceBugActivity"
 			android:configChanges="orientation|screenSize"
 			android:exported="true"
-			android:label="ScaffoldBugActivity"
+			android:label="MethodReferenceBugActivity"
 			android:theme="@style/Theme.ComposePlayground">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
